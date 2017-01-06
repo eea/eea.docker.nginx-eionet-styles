@@ -1,3 +1,7 @@
+1.1 (January 2017)
+-------------------
+* Separate logs for http and https [nituacor]
+
 1.0 (December 2016)
 -------------------
 
