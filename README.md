@@ -1,18 +1,21 @@
-# eea.docker.nginx-eionet-styles
+Eionet Nginx docker
+===================
 
-Docker Image used for the EIONET styles [EIONET styles](http://eionet.europa.eu)
+Nginx based docker image used for serving the EIONET styles [EIONET styles](http://eionet.europa.eu)
 
-## Copyright and license
+[![Docker]( https://dockerbuildbadges.quelltext.eu/status.svg?organization=eeacms&repository=nginx-eionet-styles)](https://hub.docker.com/r/eeacms/nginx-eionet-styles/builds)
 
-The Initial Owner of the Original Code is European Environment Agency (EEA).
-All Rights Reserved.
+### Prerequisites
 
-The Original Code is free software;
-you can redistribute it and/or modify it under the terms of the GNU
-General Public License as published by the Free Software Foundation;
-either version 2 of the License, or (at your option) any later
-version.
+* Install [Docker](https://docs.docker.com/engine/installation/)
+* Install [Docker Compose](https://docs.docker.com/compose/install/)
 
-## Funding
+1. Get the source code:
 
-[European Environment Agency (EU)](http://eea.europa.eu)
+        $ git clone https://github.com/eea/eea.docker.nginx-eionet-styles
+        $ cd eea.docker.nginx-eionet-styles
+
+2. Build and run the image locally:
+
+        $ docker build -t nginx:local .
+        $ docker run --it nginx:local sh
