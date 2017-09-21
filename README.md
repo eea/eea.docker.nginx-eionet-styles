@@ -10,6 +10,8 @@ Nginx based docker image used for serving the EIONET styles [EIONET styles](http
 * Install [Docker](https://docs.docker.com/engine/installation/)
 * Install [Docker Compose](https://docs.docker.com/compose/install/)
 
+### Installation
+
 1. Get the source code:
 
         $ git clone https://github.com/eea/eea.docker.nginx-eionet-styles
@@ -18,4 +20,4 @@ Nginx based docker image used for serving the EIONET styles [EIONET styles](http
 2. Build and run the image locally:
 
         $ docker build -t nginx:local .
-        $ docker run --it nginx:local sh
+        $ docker run nginx:local
